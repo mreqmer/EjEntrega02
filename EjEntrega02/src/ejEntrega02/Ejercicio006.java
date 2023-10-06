@@ -21,14 +21,15 @@ public class Ejercicio006 {
 		c=sc.nextDouble();//escanea c
 		//Cálculo de la ecuación de segundo grado:
 		comprobar = Math.pow(b,2) -(4*a*c) ;//calcula lo que hay dentro de la raid cuadrada
-		calculo1 = (-b + Math.sqrt(comprobar))/(2*a); //operacion +
-		calculo2 = (-b - Math.sqrt(comprobar))/(2*a);//operacion -
+	
 		//condicionales
 		if (2*a == 0) { // mira si el divisor es 0
 			System.out.println("La ecuación de segundo grado no es válida");//mensaje de error
 			} else if (comprobar <=0) {//mira si la raid es negativa
 				System.out.println("La ecuación de segundo grado no es válida");//mensaje de error
 			} else {//si no se cumple lo anterior devuelve la solución
+				calculo1 = (-b + Math.sqrt(comprobar))/(2*a); //operacion +
+				calculo2 = (-b - Math.sqrt(comprobar))/(2*a);//operacion -
 				System.out.println("La soluciones son:\n" + calculo1 + "\n y \n" + calculo2 );
 		}
 		sc.close();//cierre de escaner
