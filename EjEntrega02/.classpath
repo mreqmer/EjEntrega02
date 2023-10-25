@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="src2switch"/>
 	<classpathentry kind="src" path="src3while"/>
 	<classpathentry kind="src" path="src4dowhile"/>
+	<classpathentry kind="src" path="src5for"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
